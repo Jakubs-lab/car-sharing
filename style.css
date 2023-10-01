@@ -1,0 +1,71 @@
+:root{
+    --main1-color:#FFFFFF;
+    --highlight-color:#FF0000 ;
+    --button-primary-bg: var(--highlight-color);
+    --button-primary-color:var(--main1-color);
+    --button-secondary-bg:var(--main1-color);
+    --button-secondary-color:var(--highlight-color);
+    --main-font-family:  Nunito , Sans;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-image: url(../car-sharing/images/component.png);
+background-size: cover;
+background-repeat: no-repeat;
+font-family: var(--main-font-family);
+}
+h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: var(--main1-color);
+    
+
+}
+h1 span{
+    color: var(--highlight-color);
+}
+.nav{
+    padding: 40px;
+    color: var(--main1-color);
+}
+.nav-ol {
+    display: flex;
+    
+    
+
+}
+.header{
+    display: flex;
+    background-color:#00000066;
+    background-size: cover;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #FFFFFF33 ;
+    height: 93px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}
+.main{
+  background-color: #0000003b ; 
+  background-size: cover;
+  
+  
+}
+.nav-ol li{
+    padding: 40px 33px;
+}
+.nav-ol li:hover{
+    background-color:#FFFFFF33 ;
+    
+}
+button{
+    padding:  22px 55px ;
+
+}
